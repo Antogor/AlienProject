@@ -38,18 +38,6 @@ public class QueenAlien {
 		return atack;
 	}
 
-	public void setAtack(int atack) {
-		this.atack = atack;
-	}
-
-	public int damage (int enemyArmour) {
-		int totalDamage = this.atack - enemyArmour;
-		return totalDamage;
-	}
-	
-	public double movement(double distance) {
-		return distance - this.velocity;
-	}
 
 	public List<Egg> eggs(int numEggs) {
 		List<Egg> e = new ArrayList<>();

@@ -17,11 +17,11 @@ public class Alien extends QueenAlien {
 		this.stealth = stealth;
 	}
 
-	@Override
-	public double movement(double distance) {
-		return distance - this.velocity;
+
+	public double getVelocity() {
+		return velocity;
 	}
-	
-	//Method catchHuman
+
+	//Boolean method catchHuman
 	
 }
