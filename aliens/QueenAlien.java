@@ -39,6 +39,10 @@ public class QueenAlien {
 	}
 
 
+	public double getVelocity() {
+		return velocity;
+	}
+
 	public List<Egg> eggs(int numEggs) {
 		List<Egg> e = new ArrayList<>();
 		for (int i = 0; i < numEggs; i++)
